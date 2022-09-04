@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'formulario-reto1';
+
+  register={
+    name:'',
+    email:'',
+    password:'',
+  }
+
+
+  onRegister(){
+    console.log(this.register);
+  }
+
 }
